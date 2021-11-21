@@ -78,9 +78,13 @@
         display: none
     }
 
-    .thk-slide{
+    .thk-banner-1 .thk-slide{
         height: 0;
         padding: 300px 0;
+    }
+
+    .thk-slide{
+        padding: 0;
     }
 }
 

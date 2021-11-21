@@ -240,7 +240,13 @@ button {
 
 /* Banner */
 
+
+
 .thk-slide{
+    height: 100%;
+}
+
+.thk-banner .thk-slide{
     position: relative;
     height: 90vh;
     background-size: cover;
@@ -258,7 +264,7 @@ button {
      background-color: rgba(0,0,0,.5);
 }
 
-.thk-slide .thk-vid{
+.thk-vid{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -272,22 +278,37 @@ button {
     transform: translate(-50%,-50%);
 }
 
+.mfp-wrap .mfp-close {
+    display: block;
+    width: 44px;
+    height: 44px;
+    color: var(--primary-color);
+    background: var(--white-color);
+    border-radius: 50%;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: -16px;
+    padding-right: 13px;
+    line-height: 44px;
+}
+
 .thk-vid i{
     font-size: 20px;
     color: var(--white-color);
 }
 
-.slide-1{
+.thk-banner .slide-1{
     background-image: url("../images/hero-bg.jpg");
 }
 
-.slide-2{
+.thk-banner .slide-2{
     background-image: url("../images/hero-bg.jpg");
 }
 
-.slide-3{
+.thk-banner .slide-3{
     background-image: url("../images/hero-bg.jpg");
 }
+
 
 .owl-carousel .owl-nav .owl-prev,
 .owl-carousel .owl-nav .owl-next {
@@ -299,7 +320,8 @@ button {
   justify-content: center;
   font-size: 24px;
   font-weight: var(--font-weight-normal);
-  color: var(--white-color) !important;
+  color: #575656 !important;
+  background-color: #f5f5f5 !important;
   width: 50px;
   height: 50px;
   outline: none;
@@ -309,9 +331,8 @@ button {
 
 .owl-nav .owl-next:hover,
 .owl-nav .owl-prev:hover {
-  background-color: #f5f5f5;
+  
   border: none;
-  color: var(--white-color);
 }
 
 .owl-nav .owl-next {
@@ -323,6 +344,8 @@ button {
   left: -8px;
   border-radius: 0 20px  20px 0 !important;
 }
+
+/* Main Content */
 
 .thk-main-content{
     background-image: url("../images/bg.svg");
@@ -370,6 +393,15 @@ button {
     background-repeat: no-repeat;
     border:15px solid var(--primary-color);
 
+}
+
+.about-video-image{
+    position: relative;
+    height: 400px;
+    background-image: url("../images/about-video-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Social Links */
