@@ -215,7 +215,7 @@ button {
     position: relative;
     display: inline-block;
     color: var(--white-color);
-    padding: 10px 20px;
+    padding: 14px 20px;
 }
 
 .thk-toolbar .tool-left a:first-child::after{
@@ -236,23 +236,6 @@ button {
 .thk-main-nav-wrapper{
     background-color: var(--primary-color);
     padding: 24px 0;
-}
-
-.main-menu li{
-    display: inline-block;
-}
-
-.main-menu li a{
-    display: block;
-    font-size: var(--text-font-size);
-    font-weight: var(--font-weight-medium);
-    color: var(--white-color);
-    padding: 0 16px;
-}
-
-.main-menu li a:last-child{
-    padding-right: 0;
-    margin-left: 20px;
 }
 
 /* Banner */
@@ -429,10 +412,10 @@ button {
     padding: 10px 0;
 }
 
-.thk-address a{
+.thk-address a {
     display: grid !important;
     grid-template-columns: 32px 1fr;
-    align-items:baseline;
+    align-items: baseline;
 }
 
 .copyrights a{
