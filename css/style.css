@@ -243,6 +243,7 @@ button {
 
 
 .thk-slide{
+    position: relative;
     height: 100%;
 }
 
@@ -262,6 +263,17 @@ button {
      top: 0;
      left: 0;
      background-color: rgba(0,0,0,.5);
+}
+
+.thk-banner-2 .thk-slide{
+    height: 380px;
+    background-image: url("../images/hero-bg2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.thk-banner-2 .thk-slide::before{
+    content: none;
 }
 
 .thk-vid{
